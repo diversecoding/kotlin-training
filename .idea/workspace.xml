@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27844bd-2d91-4226-9fa0-f7b170bb1fdc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controlflow/Grade.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/function/function.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/function/morefunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learnclass/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learnclass/Mainfile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/List.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controlflow/Decision.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflow/Decision.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variable/Array.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/Basic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variable/Basic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Training-Kotlin-for-Android/META-INF/Training-Kotlin-for-Android.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Training-Kotlin-for-Android/META-INF/Training-Kotlin-for-Android.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,21 +19,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Grade.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controlflow/Grade.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
@@ -57,6 +50,13 @@
         <option value="$PROJECT_DIR$/src/variable/Array.kt" />
         <option value="$PROJECT_DIR$/src/controlflow/Decision.kt" />
         <option value="$PROJECT_DIR$/src/controlflow/Grade.kt" />
+        <option value="$PROJECT_DIR$/src/function/function.kt" />
+        <option value="$PROJECT_DIR$/src/function/morefunction.kt" />
+        <option value="$PROJECT_DIR$/src/list/List.kt" />
+        <option value="$PROJECT_DIR$/src/learnclass/mainfile.kt" />
+        <option value="$PROJECT_DIR$/src/learnclass/Animal.kt" />
+        <option value="$PROJECT_DIR$/src/learnclass/Mainfile.kt" />
+        <option value="$PROJECT_DIR$/src/nullsafety/NullSafe.kt" />
       </list>
     </option>
   </component>
@@ -175,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.controlflow.GradeKt">
+  <component name="RunManager" selected="Kotlin.learnclass.MainfileKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -195,16 +195,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="controlflow.DecisionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Training-Kotlin-for-Android" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="controlflow.DecisionKt" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <configuration name="controlflow.GradeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Training-Kotlin-for-Android" />
       <option name="VM_PARAMETERS" />
@@ -215,34 +205,44 @@
       <option name="MAIN_CLASS_NAME" value="controlflow.GradeKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="helloworld.Hello_WorldKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="function.FunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Training-Kotlin-for-Android" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="helloworld.Hello_WorldKt" />
+      <option name="MAIN_CLASS_NAME" value="function.FunctionKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="variable.ArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="function.MorefunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Training-Kotlin-for-Android" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="variable.ArrayKt" />
+      <option name="MAIN_CLASS_NAME" value="function.MorefunctionKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="variable.BasicKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="learnclass.MainfileKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Training-Kotlin-for-Android" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="variable.BasicKt" />
+      <option name="MAIN_CLASS_NAME" value="learnclass.MainfileKt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="list.ListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Training-Kotlin-for-Android" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="list.ListKt" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -268,19 +268,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.helloworld.Hello_WorldKt" />
-      <item itemvalue="Kotlin.variable.BasicKt" />
-      <item itemvalue="Kotlin.controlflow.DecisionKt" />
-      <item itemvalue="Kotlin.variable.ArrayKt" />
       <item itemvalue="Kotlin.controlflow.GradeKt" />
+      <item itemvalue="Kotlin.function.FunctionKt" />
+      <item itemvalue="Kotlin.function.MorefunctionKt" />
+      <item itemvalue="Kotlin.list.ListKt" />
+      <item itemvalue="Kotlin.learnclass.MainfileKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.learnclass.MainfileKt" />
+        <item itemvalue="Kotlin.list.ListKt" />
+        <item itemvalue="Kotlin.function.MorefunctionKt" />
+        <item itemvalue="Kotlin.function.FunctionKt" />
         <item itemvalue="Kotlin.controlflow.GradeKt" />
-        <item itemvalue="Kotlin.controlflow.DecisionKt" />
-        <item itemvalue="Kotlin.variable.ArrayKt" />
-        <item itemvalue="Kotlin.variable.BasicKt" />
-        <item itemvalue="Kotlin.helloworld.Hello_WorldKt" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +295,7 @@
       <option name="presentableId" value="Default" />
       <updated>1531277829497</updated>
       <workItem from="1531277835409" duration="239000" />
-      <workItem from="1531278131725" duration="5193000" />
+      <workItem from="1531278131725" duration="14482000" />
     </task>
     <task id="LOCAL-00001" summary="Add more training file">
       <created>1531281124139</created>
@@ -304,15 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1531281124139</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add more training file">
+      <created>1531283420677</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531283420677</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5432000" />
+    <option name="totallyTimeSpent" value="14721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Cargo" order="3" />
@@ -385,20 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/variable/Basic.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/variable/Array.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controlflow/Decision.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -408,8 +400,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controlflow/Grade.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="345">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/function/function.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/function/morefunction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/list/List.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnclass/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnclass/Mainfile.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/learnclass/Animal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variable/Basic.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variable/Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nullsafety/NullSafe.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
