@@ -23,5 +23,5 @@ fun main(args: Array<String>){
     println("3.14 to Int : "+(3.14.toInt()))
     println("A to Int : "+(letterGrade.toInt()))
     println(fullName)
-
+    println(fullName.reversed())
 }

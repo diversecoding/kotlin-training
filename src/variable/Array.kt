@@ -15,6 +15,7 @@ fun main(args: Array<String>){
         print("$i ")
     println()
 
+    // 5..20
     var range = 5.rangeTo(20)
     println(range)
     for (i in range)
@@ -25,4 +26,10 @@ fun main(args: Array<String>){
     for (i in down)
         print("$i ")
     println()
+
+    var alphabet = "A".."Z"
+    print("Alphabet : ${"R" in alphabet}")
+    println()
+
+
 }
